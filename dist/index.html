@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../src/css/insight.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+ 
+  <body>
+      <div class="py-5 text-center">
+        <h1>Notes générales des joueurs sur Fifa 19</h1>
+        </div>
+    <div class="col-md-5 mb-3">
+        <label for="select">Position sur le terrain</label>
+        <select class="custom-select d-block w-100" id="position">
+            <option value="all">Tous</option>
+            <option value="GK">G</option>
+            <option value="RB">DD</option>
+            <option value="RWB">DLD</option>
+            <option value="LB">DG</option>
+            <option value="LWB">DLG</option>
+            <option value="CB">DC</option>
+            <option value="CDM">MDC</option>
+            <option value="CM">MC</option>
+            <option value="CAM">MOC</option>
+            <option value="LM">MG</option>
+            <option value="LW">AG</option>
+            <option value="LF">AVG</option>
+            <option value="RM">MD</option>
+            <option value="RW">AD</option>
+            <option value="RF">AVD</option>
+            <option value="CF">AT</option>
+            <option value="ST">BU</option>
+        </select>
+    </div>
+      <div id="chart"></div>
+    
+      
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <script src="../src/billboard.js"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+  </script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
